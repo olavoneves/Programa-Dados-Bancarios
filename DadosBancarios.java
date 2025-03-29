@@ -1,4 +1,4 @@
-package br.com.banco;
+package br.com.programaDadosBancarios;
 
 import javax.swing.*;
 import java.awt.*;
