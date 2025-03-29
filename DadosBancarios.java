@@ -26,7 +26,8 @@ public class DadosBancarios {
 
             while (executando) {
                 int menu = Integer.parseInt(JOptionPane.showInputDialog("""
-                    Escolha qual operação gostaria de realizar: [ 1, 2, 3, 4]
+                    Escolha qual operação gostaria de realizar: 
+                    [ 1, 2, 3, 4]
                     1 - Consultar saldos
                     2 - Receber valor
                     3 - Transferir valor
