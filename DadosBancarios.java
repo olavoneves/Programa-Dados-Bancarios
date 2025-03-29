@@ -13,11 +13,11 @@ public class DadosBancarios {
             String tipoDeConta = JOptionPane.showInputDialog(null, "Digite seu tipo de conta bancária", "Corrente");
             double saldoInicial = Double.parseDouble(JOptionPane.showInputDialog(null, "Digite o seu saldo em conta"));
             JOptionPane.showMessageDialog(null, """
-                    ********************
+                    ******************************
                     Nome: %s
                     Tipo de conta: %s
                     Saldo inicial: R$%.2f
-                    ********************
+                    ******************************
                     """.formatted(name, tipoDeConta, saldoInicial), "Dados iniciais do cliente:", JOptionPane.QUESTION_MESSAGE, null);
 
             boolean executando = true;
